@@ -35,6 +35,7 @@ p {
 footer {
   grid-area: footer;
   background-color: black;
+  color: whitesmoke;
 }
 
 @media screen and (min-width: 34em) {
