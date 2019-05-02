@@ -1,12 +1,35 @@
-body {
+.site {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: auto 1fr 3fr;
+  grid-template-areas: "title title title"
+    "main header header"
+    "main sidebar footer";
+}
+
+header {
+  background-color: green;
+  grid-area: header;
+
+}
+
+main {
   background-color: lightblue;
+  grid-area: main;
 }
 
 h1 {
-  color: navy;
+  background-color: navy;
   margin-left: 20px;
+  grid-area: title;
 }
 
 p {
-  color: red;
+  background-color: red;
+  grid-area: main
+}
+
+footer {
+  grid-area: footer;
+  background-color: black;
 }
