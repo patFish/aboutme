@@ -49,7 +49,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 17em) {
+@media screen and (min-width: 30em) {
   .site {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
