@@ -10,6 +10,11 @@ header {
   color: whitesmoke;
 }
 
+header img {
+  height: 95px;
+  width: auto;
+}
+
 main {
   background-color: lightblue;
 }
