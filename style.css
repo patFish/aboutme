@@ -29,14 +29,25 @@ footer {
   color: whitesmoke;
 }
 
+a#footer:link {
+  color: whitesmoke;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+}
+
+a#footer:hover {
+  color: gray;
+}
+
 @media only screen and (min-width: 500px) {
   .site {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr 3fr 1fr;
     grid-template-areas: "title title"
-      "main header"
-      "main sidebar"
+      "header main"
+      "sidebar main"
       "footer footer";
   }
 
@@ -69,8 +80,8 @@ footer {
   .site {
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-areas: "title title title"
-      "main header header"
-      "main sidebar footer";
+      "header header main"
+      "sidebar footer main";
   }
 
 }
