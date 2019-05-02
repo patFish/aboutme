@@ -42,7 +42,7 @@ footer {
   color: whitesmoke;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 600px) {
   .site {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
