@@ -30,7 +30,7 @@ footer {
   color: whitesmoke;
 }
 
-@media screen and (min-width: 600px) and (orientation: landscape) {
+@media screen and (min-width: 1000px) and (orientation: landscape) {
   .site {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -65,7 +65,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
   .site {
     display: grid;
     grid-template-columns: 1fr 1fr;
