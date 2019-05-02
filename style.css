@@ -20,6 +20,10 @@ main {
   grid-area: main;
 }
 
+aside {
+  background-color: aqua;
+}
+
 h1 {
   background-color: navy;
   color: whitesmoke;
