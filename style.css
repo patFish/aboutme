@@ -1,10 +1,13 @@
 .site {
   display: block;
+  font-family: "Rubik",
+    sans-serif;
 }
 
 header {
-  background-color: green;
-
+  background-color: #22262a;
+  align-content: center;
+  color: whitesmoke;
 }
 
 main {
@@ -12,7 +15,9 @@ main {
 }
 
 aside {
-  background-color: aqua;
+  background-color: #22262a;
+  color: white;
+
 }
 
 h1 {
@@ -25,7 +30,7 @@ p {
 }
 
 footer {
-  background-color: black;
+  background-color: #22262a;
   color: whitesmoke;
 }
 
@@ -78,7 +83,7 @@ a#footer:hover {
 
 @media only screen and (min-width: 1000px) {
   .site {
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr;
     grid-template-areas: "title title title"
       "header header main"
       "sidebar footer main";
