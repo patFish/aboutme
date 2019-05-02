@@ -12,11 +12,11 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 header img {
-  height: 95px;
-  width: auto;
+  width: 95px;
 }
 
 main {
