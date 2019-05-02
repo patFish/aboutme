@@ -97,10 +97,10 @@ a#footer:hover {
 
 @media only screen and (min-width: 1000px) {
   .site {
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 4fr;
     grid-template-areas: "title title title"
       "header header main"
-      "sidebar footer main";
+      "footer sidebar main";
   }
 
 }
