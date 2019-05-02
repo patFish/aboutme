@@ -29,39 +29,6 @@ footer {
   color: whitesmoke;
 }
 
-@media only screen and (min-width: 1000px) {
-  .site {
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-areas: "title title title"
-      "main header header"
-      "main sidebar footer";
-  }
-
-  p {
-    grid-area: main
-  }
-
-  footer {
-    grid-area: footer;
-
-  }
-
-  h1 {
-    grid-area: title;
-
-  }
-
-  header {
-    grid-area: header;
-
-  }
-
-  main {
-    grid-area: main;
-
-  }
-}
-
 @media only screen and (min-width: 800px) {
   .site {
     display: grid;
@@ -96,4 +63,14 @@ footer {
     grid-area: main;
 
   }
+}
+
+@media only screen and (min-width: 1000px) {
+  .site {
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas: "title title title"
+      "main header header"
+      "main sidebar footer";
+  }
+
 }
