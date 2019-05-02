@@ -1,3 +1,7 @@
+:root {
+  --main-secondary-color: #22262a;
+}
+
 .site {
   display: block;
   font-family: "Rubik",
@@ -5,7 +9,7 @@
 }
 
 header {
-  background-color: #22262a;
+  background-color: var(--main-secondary-color);
   color: whitesmoke;
   display: flex;
   flex-direction: column;
@@ -24,7 +28,7 @@ main {
 }
 
 aside {
-  background-color: #22262a;
+  background-color: var(--main-secondary-color);
   color: white;
 
 }
@@ -39,7 +43,7 @@ p {
 }
 
 footer {
-  background-color: #22262a;
+  background-color: var(--main-secondary-color);
   color: whitesmoke;
 }
 
