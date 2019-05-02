@@ -6,8 +6,12 @@
 
 header {
   background-color: #22262a;
-  align-content: center;
   color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 header img {
