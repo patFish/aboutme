@@ -57,7 +57,7 @@ h3 {
   line-height: 1.2;
 }
 h4 {
-  color: rgb(149, 159, 160);
+  color: rgb(101, 118, 121);
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
@@ -82,7 +82,7 @@ a#content-link,
 a#contact {
   color: black;
   font-style: italic;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a#contact,
@@ -93,8 +93,7 @@ a#footer:link {
 a#content-link:hover,
 a#footer:hover,
 a#contact:hover {
-  color: rgb(149, 159, 160);
-
+  color: rgb(101, 118, 121);
 }
 
 a#footer {
