@@ -165,6 +165,24 @@ a#footer {
   }
 }
 
+blockquote {
+  display: block;
+  margin: 1em 0;
+  padding-left: 2em;
+}
+blockquote::before{
+  content: '';
+  display: inline-block;
+  margin-left: -25px;
+  margin-right: 10px;
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: rgba(101, 118, 121,0.5);
+}
+
 @media only screen and (min-width: 1000px) {
   .site {
     grid-template-columns: auto 1fr 4fr;
