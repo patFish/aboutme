@@ -80,14 +80,21 @@ footer {
   font-size: small;
 }
 
-a {
+a#content-link {
   color: black;
-  text-decoration: none;
   font-style: italic;
+  text-decoration: none;
+}
+a#contact {
+  color: black;
+  font-style: italic;
+  text-decoration: none;
   font-weight: bold;
 }
 a#footer {
   color: whitesmoke;
+  font-weight: bold;
+  text-decoration: none;
   padding-right: 10px;
 }
 a#footer:link {
@@ -115,9 +122,6 @@ a#footer:hover {
     grid-area: main;
   }
 
-  /* footer {
-    grid-area: footer;
-  } */
   aside {
     grid-area: sidebar;
     max-width: var(--navigation-max-width);
@@ -133,15 +137,49 @@ a#footer:hover {
 
   main {
     grid-area: main;
-    grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
     padding: 1em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      'techMe shortMe '
+      'recent recent '
+      'contact sideProjects'
+      'readingList links';
+  }
+  .techMe {
+    grid-area: techMe;
+  }
+
+  .shortMe {
+    grid-area: shortMe;
+  }
+
+  .links {
+    grid-area: links;
+  }
+
+  .readingList {
+    grid-area: readingList;
+  }
+
+  .sideProjects {
+    grid-area: sideProjects;
+  }
+
+  .contact {
+    grid-area: contact;
+  }
+
+  .recent {
+    grid-area: recent;
   }
 }
 
 @media only screen and (min-width: 1000px) {
   .site {
     grid-template-columns: auto 1fr 4fr;
+
     grid-template-areas:
       'title title title'
       'header header main'
@@ -150,5 +188,10 @@ a#footer:hover {
 
   main {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      'techMe shortMe contact'
+      'recent recent recent'
+      'sideProjects readingList links';
   }
 }
