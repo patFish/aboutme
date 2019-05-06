@@ -21,7 +21,7 @@ pre {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  padding: 0.2em;
+  padding: 2em;
 }
 
 .card:hover {
@@ -51,6 +51,9 @@ main {
   padding: 0.3em;
 }
 
+h3 {
+  margin-top: 0;
+}
 h4 {
   margin-block-end: 0.2em;
 }
