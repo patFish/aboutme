@@ -3,6 +3,7 @@
   --navigation-max-width: 200px;
   --footer-size: 1.5em;
 }
+
 body {
   margin: 0px;
 }
@@ -16,15 +17,18 @@ body {
 pre {
   font-family: 'Rubik', sans-serif;
 }
+
 .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   padding: 0.2em;
 }
+
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
 header {
   background-color: var(--main-secondary-color);
   color: whitesmoke;
@@ -59,9 +63,11 @@ h1 {
   background-color: navy;
   color: whitesmoke;
 }
+
 h4 {
   margin-block-end: 0.2em;
 }
+
 p {
   background-color: red;
 }
@@ -86,18 +92,21 @@ a#content-link {
   font-style: italic;
   text-decoration: none;
 }
+
 a#contact {
   color: black;
   font-style: italic;
   text-decoration: none;
   font-weight: bold;
 }
+
 a#footer {
   color: whitesmoke;
   font-weight: bold;
   text-decoration: none;
   padding-right: 10px;
 }
+
 a#footer:link {
   text-decoration: none;
   font-style: italic;
@@ -127,6 +136,7 @@ a#footer:hover {
     grid-area: sidebar;
     max-width: var(--navigation-max-width);
   }
+
   h1 {
     grid-area: title;
   }
@@ -134,6 +144,8 @@ a#footer:hover {
   header {
     grid-area: header;
     max-width: var(--navigation-max-width);
+    box-shadow: 4px 0 8px 0 rgba(0, 0, 0, 0.2);
+
   }
 
   main {
@@ -148,6 +160,7 @@ a#footer:hover {
       'contact sideProjects'
       'readingList links';
   }
+
   .techMe {
     grid-area: techMe;
   }
