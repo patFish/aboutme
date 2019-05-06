@@ -100,6 +100,13 @@ a#contact {
   font-weight: bold;
 }
 
+a#content-link:hover,
+a#footer:hover,
+a#contact:hover {
+  color: rgb(134, 120, 120);
+
+}
+
 a#footer {
   color: whitesmoke;
   font-weight: bold;
@@ -111,10 +118,6 @@ a#footer:link {
   text-decoration: none;
   font-style: italic;
   font-weight: bold;
-}
-
-a#footer:hover {
-  color: rgb(134, 120, 120);
 }
 
 @media only screen and (min-width: 500px) {
