@@ -136,7 +136,6 @@ a#footer {
     grid-area: header;
     max-width: var(--navigation-max-width);
     box-shadow: 4px 0 8px 0 rgba(0, 0, 0, 0.2);
-
   }
 
   main {
@@ -186,7 +185,7 @@ blockquote {
   margin: 1em 0;
   padding-left: 2em;
 }
-blockquote::before{
+blockquote::before {
   content: '';
   display: inline-block;
   margin-left: -25px;
@@ -196,12 +195,12 @@ blockquote::before{
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  background-color: rgba(101, 118, 121,0.5);
+  background-color: rgba(101, 118, 121, 0.5);
 }
 
 @media only screen and (min-width: 1000px) {
   .site {
-    grid-template-columns: auto 1fr 4fr;
+    grid-template-columns: auto auto 4fr;
 
     grid-template-areas:
       'title title title'
