@@ -11,6 +11,7 @@ body {
 .site {
   display: block;
   font-family: 'Rubik', sans-serif;
+  line-height: 1.5;
   margin-bottom: var(--footer-size);
 }
 
@@ -21,7 +22,7 @@ pre {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  padding: 0.2em;
+  padding: 2em;
 }
 
 .card:hover {
@@ -51,8 +52,17 @@ main {
   padding: 0.3em;
 }
 
+h3 {
+  margin-top: 0;
+  line-height: 1.2;
+}
 h4 {
-  margin-block-end: 0.2em;
+  color: rgb(101, 118, 121);
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 1.5em;
+  margin-block-end: 0.6em;
 }
 
 footer {
@@ -73,7 +83,7 @@ a#content-link,
 a#contact {
   color: black;
   font-style: italic;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a#contact,
@@ -84,8 +94,7 @@ a#footer:link {
 a#content-link:hover,
 a#footer:hover,
 a#contact:hover {
-  color: rgb(134, 120, 120);
-
+  color: rgb(101, 118, 121);
 }
 
 a#footer {
@@ -154,6 +163,24 @@ a#footer {
   .recent {
     grid-area: recent;
   }
+}
+
+blockquote {
+  display: block;
+  margin: 1em 0;
+  padding-left: 2em;
+}
+blockquote::before{
+  content: '';
+  display: inline-block;
+  margin-left: -25px;
+  margin-right: 10px;
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: rgba(101, 118, 121,0.5);
 }
 
 @media only screen and (min-width: 1000px) {
